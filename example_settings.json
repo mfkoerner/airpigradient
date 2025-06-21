@@ -1,0 +1,10 @@
+{
+   "Instructions" : "copy this file to settings.json and remove this line",
+   "devices" : [
+      {
+         "name" : "bedroom",
+         "type" : "indoor",
+         "hwid" : "1234abcd1234"
+      }
+   ]
+}
