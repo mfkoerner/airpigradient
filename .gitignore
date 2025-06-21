@@ -1,6 +1,9 @@
 # For this project
 settings.json
 
+# vim artifacts
+*.swp
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
