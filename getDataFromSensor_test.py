@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 
 import json
+from pprint import pprint
 from getDataFromSensor import (
    AirSensor,
 )
@@ -13,7 +14,8 @@ def test_AirSensor():
       airSensor = AirSensor( hwid=device[ "hwid" ],
                              name=device[ "name" ] )
       print( airSensor.name )
-      print( airSensor.getRaw() )
+      # TODO add ordered_dicts=False once python is updated
+      pprint( airSensor.getAll() )
       print()
 
 if __name__ == "__main__":
