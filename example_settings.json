@@ -3,8 +3,8 @@
    "devices" : [
       {
          "name" : "bedroom",
-         "type" : "indoor",
-         "hwid" : "1234abcd1234"
+         "hwid" : "1234abcd1234",
+         "indoor" : true
       }
    ]
 }
